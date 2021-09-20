@@ -28,27 +28,25 @@ function App() {
  
   return (
    <Router> 
-     <Route path="/"><Header></Header></Route>
-     <Route path="/register">
-     <Header/>
-     <Register/> 
+    <Route path="/" component={Header} exact />
+    <Route path="/register">
+      <Header/>
+      <Register/> 
      </Route>
      <Route path="/login"  component={Login} exact /> 
-      <Route path="/logout" component={Log} exact/>
+     <Route path="/logout" component={Log} exact/> 
+    <ProtectedRoute path="/profile" component={Profile} exact/>
+    <ProtectedRoute path="/dashboard" isAdmin={true} component={Dashboard} exact/>
+    <Route path="/admin/driver/:id"  component={UpdateUser} exact/>
+    <Route path="/admin/driver/details/:id"  component={Details} exact/>
+    <Route path="/admin/driver/vehicledetails/:id"  component={Vehicle} exact/>
+    <Route path="/verifyDocuments" component={VerifyDocuments} exact></Route>
+    <Route path="/trackDriver" component={TrackDriver} exact></Route>
+    <Route path="/walletLogs" component={WalletLogs} exact></Route>
+    <Route path="/updateProfile" component={Updateprofile} exact></Route>
+    <Route path="/profileDetails" component={ProfileDetails} exact></Route>
 
-
-<ProtectedRoute path="/profile" component={Profile} exact/>
-<ProtectedRoute path="/dashboard" isAdmin={true} component={Dashboard} exact/>
-<Route path="/admin/driver/:id"  component={UpdateUser} exact/>
-<Route path="/admin/driver/details/:id"  component={Details} exact/>
-<Route path="/admin/driver/vehicledetails/:id"  component={Vehicle} exact/>
-<Route path="/verifyDocuments" component={VerifyDocuments} exact></Route>
-<Route path="/trackDriver" component={TrackDriver} exact></Route>
-<Route path="/walletLogs" component={WalletLogs} exact></Route>
-<Route path="/updateProfile" component={Updateprofile} exact></Route>
-<Route path="/profileDetails" component={ProfileDetails} exact></Route>
-
-      
+          
 
    </Router>
   );

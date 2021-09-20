@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react'
 
 
 import { useDispatch, useSelector } from 'react-redux'
-import { updateUser ,getdriverDetails} from '../actions/authactions'
+import { updateUser } from '../actions/authactions'
 
 
 const UpdateUser = ({ history, match }) => {

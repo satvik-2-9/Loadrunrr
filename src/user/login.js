@@ -20,7 +20,7 @@ export const Login=({history})=>{
         }
         if(error){
         //    alert.error(error)
-            dispatch(clearerrors())
+           dispatch(clearerrors())
         }
     },[])
 
