@@ -111,7 +111,7 @@ const setdrivers = () => {
             online: user.online, */
             drivername: user.firstname,
             Phone_No: user.Phone_No,
-            pic:<img src="https://partners.olacabs.com/public/img/type2.98e5661.png" className="img"></img>,
+            pic:<img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" className="img"></img>,
             vehicletype:user.VehicleType,
             createdby:"App",
             createdAt:user.createdAt,
@@ -169,7 +169,7 @@ const setdrivers = () => {
             <div className="col-12 col-md-10">
                 <Fragment>
                     <h1 className="my-5">All Drivers</h1>
-                    <div> 
+        <div className="wrapper"> 
             <div className="constraints">
                <div className="tp"><span className="title">Status:</span>
                  <DropdownButton className="but" id="dropdown-button-dark-example1"  variant="secondary" title="All">
@@ -191,7 +191,7 @@ const setdrivers = () => {
                 </DropdownButton>
                 </div>
                 <div className="tp"><span className="title">From Date:</span> 
-                  <DatePickerComponent placeholder="Select Date"></DatePickerComponent>
+                  <DatePickerComponent placeholder="Select Date" className="date"></DatePickerComponent>
                 </div>
                 <div className="tp"><span className="title">To Date:</span> 
                   <DatePickerComponent placeholder="Select Date"></DatePickerComponent>
@@ -203,7 +203,7 @@ const setdrivers = () => {
                           
                 <Button variant="secondary" className="butt">Filter</Button>
                 <Button variant="secondary" className="butt">Export to Excel </Button>
-                <input type="text" placeholder="Search"></input>
+                <input type="text" placeholder="Search" className="in"></input>
                </div>
                 
             </div>

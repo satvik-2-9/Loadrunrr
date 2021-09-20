@@ -28,7 +28,7 @@ function App() {
  
   return (
    <Router> 
-   
+     <Route path="/"><Header></Header></Route>
      <Route path="/register">
      <Header/>
      <Register/> 

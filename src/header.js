@@ -37,8 +37,8 @@ const Header = () => {
      </div>  ) :   (
                         <Fragment>
        <h1 className="heading">Welcome to  app</h1>
-                          <a onClick={()=>{window.location.href="./login"}} >Login</a>
-                          <hr />
+                          <Link to="/login">Login</Link>
+                          <hr /> 
                           <Link to="/register"  >signup</Link>
                           <hr />
      <Link to="/profile">profile</Link>

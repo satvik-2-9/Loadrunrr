@@ -28,92 +28,92 @@ function VerifyDocuments() {
 
         data.rows.push({
             Documents: 'Vehicle documents',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         
         data.rows.push({
             Documents: 'Driver Insurance',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         
         data.rows.push({
             Documents: 'Address Proof',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         
         data.rows.push({
             Documents: 'Driver License Front',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         
         data.rows.push({
             Documents: 'Driver License Back',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img  alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         
         data.rows.push({
             Documents: 'Driver Image',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Police Pic',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Aadhar Front',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Aadhar Back',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Pancard',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Permit',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Vehicle Documents',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Address proof',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Vehicle Front',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Vehicle Back',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Vehicle Left',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         data.rows.push({
             Documents: 'Vehicle Right',
-            Image: <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
+            Image: <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" ></img>,
             Action: <input type="file" ></input>
         });
         return data; 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Row, Col, Button, Dropdown, DropdownButton } from 'react-bootstrap'
+import { Form, Row, Col, Dropdown, DropdownButton } from 'react-bootstrap'
 import { DatePickerComponent } from '@syncfusion/ej2-react-calendars'
 import './styles/ProfileDetails.css'
 function ProfileDetails() {
@@ -17,7 +17,7 @@ function ProfileDetails() {
 
     <Form.Group as={Col} controlId="formGridphoto">
                             <Form.Label>Profile pic</Form.Label>
-                            <img src="https://partners.olacabs.com/public/img/type2.98e5661.png" className="img" ></img>
+                            <img alt="dr" src="https://partners.olacabs.com/public/img/type2.98e5661.png" className="img" ></img>
                             
       </Form.Group>
   </Row>
